@@ -1,12 +1,14 @@
-# 🎮 Torneio de Games — FACEIT Style
-**Disciplina:** Laboratório de Banco de Dados  
-**UCB — Análise e Desenvolvimento de Sistemas**
+# Torneio de Games — FACEIT Style
+> por Bruno de França, Gustavo Silva e Lucas Alves 👨‍💻
 
----
+## Como funciona?
+O *Torneio de Games — FACEIT Style* foi desenvolvido com base no funcionamento da plataforma [FACEIT](https://www.faceit.com/pt-br), um serviço utilizado por jogadores competitivos para organizar partidas ranqueadas em jogos online.
+
+Inspirado nesse modelo, **recriamos** uma versão simplificada da estrutura da plataforma utilizando Java, MySQL e Java Swing.
 
 ## Tecnologias
 - Java 11+
-- MySQL 8+
+- MySQL 8+ (Workbench)
 - JDBC (MySQL Connector/J)
 - Java Swing
 
@@ -36,6 +38,8 @@ private static final String PASSWORD = "sua_senha_aqui";
 Adicione o driver MySQL ao classpath do projeto:
 - Faça download do `mysql-connector-j-8.x.x.jar` em https://dev.mysql.com/downloads/connector/j/
 - No IntelliJ: File → Project Structure → Modules → Dependencies → Add JAR
+- No APACHE NetBeans: Clique com botão direito no projeto → Properties → Libraries → Add JAR/Folder
+- No Eclipse: Clique com botão direito no projeto → Build Path → Configure Build Path → Libraries → Add External JARs
 
 ### 4. Executar
 Execute a classe principal:
@@ -51,7 +55,7 @@ torneio-games/
 ├── db/
 │   └── schema.sql              ← DDL completo + dados de teste
 ├── src/com/torneio/
-│   ├── App.java                ← Ponto de entrada
+│   ├── App.java                ← Aplicação
 │   ├── db/
 │   │   └── ConnectionFactory   ← Conexão JDBC
 │   ├── model/
