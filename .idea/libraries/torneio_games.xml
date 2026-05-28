@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="torneio-games">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/torneio-games.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
