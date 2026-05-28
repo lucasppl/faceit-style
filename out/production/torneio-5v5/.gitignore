@@ -1,0 +1,17 @@
+# Compilados
+/build/
+/dist/
+/out/
+
+# IntelliJ
+/.idea/
+*.iml
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.class
+
+# NetBeans cache
+/nbproject/private/

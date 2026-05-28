@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="torneio-games" default="default" basedir=".">
+    <description>Torneio de Games — FACEIT Style</description>
+    <import file="nbproject/build-impl.xml"/>
+</project>
